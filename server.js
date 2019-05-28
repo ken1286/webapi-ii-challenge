@@ -7,10 +7,5 @@ server.use(express.json()); // add this to make post and put work
 
 server.use('/api/posts', postsRouter);
 
-
-
-
-
-
 //
 module.exports = server;
